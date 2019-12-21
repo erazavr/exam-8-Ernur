@@ -1,0 +1,16 @@
+.Phrases {
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn {
+    outline: none;
+    border: 2px solid;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    margin-right: 10px;
+}
