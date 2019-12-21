@@ -46,6 +46,7 @@ class MainPage extends Component {
                     </ul>
                 </div>
                 <div className='container'>
+                    <h2>{this.props.match.params.name}</h2>
                     {this.state.phrases !== null ? Object.keys(this.state.phrases).map(id => (
                         <Quotes
                             key={id}
