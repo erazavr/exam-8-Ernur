@@ -1,0 +1,25 @@
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    padding: 20px 0;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-nav ul {
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.main-nav a {
+    margin-right: 10px;
+}
